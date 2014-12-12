@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ab_stacked_solid_example"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layoutUser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/show_popupwindow_bg_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="8dp" >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/userface"
+                android:src="@drawable/defaultface_1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="管理员"
+                    android:id="@+id/username"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <!-- <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="可用余额:0.00元"
+                    android:id="@+id/currmoney"
+                    android:textColor="@color/green"
+                    android:textSize="15dp" /> -->
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/light_gray" />
+
+        <!-- <LinearLayout
+            android:id="@+id/my_bank"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/show_popupwindow_bg_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="8dp" >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ofm_photo_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="我的银行卡"
+                android:textColor="@color/black"
+                android:textSize="15dip" />
+        </LinearLayout> -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:id="@+id/layout_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/show_popupwindow_bg_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="8dp" >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ofm_collect_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="设置"
+                android:textColor="@color/black"
+                android:textSize="15dip" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:id="@+id/layout_feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/show_popupwindow_bg_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="8dp" >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ofm_card_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="意见反馈"
+                android:textColor="@color/black"
+                android:textSize="15dip" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:id="@+id/logoutLine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/show_popupwindow_bg_selector"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="8dp" >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ofm_setting_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="退出登录"
+                android:textColor="@color/black"
+                android:textSize="15dip" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/light_gray" />
+    </LinearLayout>
+
+</RelativeLayout>

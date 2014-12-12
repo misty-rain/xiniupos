@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logindialog_space"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical" >
+
+        <AutoCompleteTextView
+            android:id="@+id/login_account"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:hint="@string/login_user_name_hint"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size_13" />
+
+        <AutoCompleteTextView
+            android:id="@+id/login_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="35dp"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:hint="@string/login_password_hint"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size_13" />
+    </LinearLayout>
+    
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp" >
+
+        <ImageView
+            android:id="@+id/btnlogin"
+            style="@style/btn_login_click"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/btn_login_click_bg"
+            android:gravity="center" />
+    </LinearLayout>
+    
+  
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/exit_bg_2" >
+
+            <TextView
+                android:id="@+id/txtprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="总计 : ￥:10.00"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_size_20" />
+
+            <Button
+                android:layout_width="60dp"
+                android:id="@+id/btn_go_settlement"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/update_password_button_selector"
+                android:focusable="true"
+                android:text="去结算"
+                android:textColor="@color/white" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

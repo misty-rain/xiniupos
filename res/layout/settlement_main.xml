@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/feedback_editlayout_bg" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/settlement_main_count"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txt_settlement_main_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <View style="@style/online_payment_cut_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/feedback_editlayout_bg" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/settlement_main_totalprice"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txt_settlement_totalprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="120"
+                    android:textColor="@color/red"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/feedback_editlayout_bg" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/settlement_main_vouchers"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txt_currcard_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="使用抵用券 >"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <View style="@style/online_payment_cut_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/feedback_editlayout_bg" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/settlement_main_scroe"
+                    android:textSize="15sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_currusername"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="使用积分 >"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <View style="@style/online_payment_cut_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/feedback_editlayout_bg" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/settlement_main_discount"
+                    android:textSize="15sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_currusername"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="使用折扣 >"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/feedback_editlayout_bg" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/settlement_main_need_blance"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txt_settlement_needpayprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="￥:10.0"
+                    android:textColor="@color/red"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/settlement_main_chooice_pay_type" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/feedback_editlayout_bg"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/feedback_editlayout_bg" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="3"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/pay_icon_icbc" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="3"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="192dp"
+                            android:layout_height="17dp"
+                            android:gravity="left"
+                            android:paddingLeft="20dp"
+                            android:text="@string/settlement_main_bankcard"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="3"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="20dp"
+                        android:src="@drawable/ic_arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/feedback_editlayout_bg" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="3"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/settlement_icon_crash" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="3"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="192dp"
+                            android:layout_height="17dp"
+                            android:gravity="left"
+                            android:paddingLeft="20dp"
+                            android:text="@string/settlement_main_crash"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="3"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="20dp"
+                        android:src="@drawable/ic_arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/feedback_editlayout_bg" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="3"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/settlement_icon_recharge" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="3"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="192dp"
+                            android:layout_height="17dp"
+                            android:gravity="left"
+                            android:paddingLeft="20dp"
+                            android:text="@string/settlement_main_rechargecard"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="3"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="20dp"
+                        android:src="@drawable/ic_arrow_right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/feedback_editlayout_bg" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="3"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/settlement_icon_other" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="3"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="192dp"
+                            android:layout_height="17dp"
+                            android:gravity="left"
+                            android:paddingLeft="20dp"
+                            android:text="@string/settlement_main_otherpaytype"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="3"
+                        android:contentDescription="@string/app_name"
+                        android:paddingRight="20dp"
+                        android:src="@drawable/ic_arrow_right" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonpay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/update_password_button_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="确认支付"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

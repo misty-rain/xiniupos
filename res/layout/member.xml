@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edtmemberCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="@string/member_ship_search_hint"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/update_password_button_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/button_submit_entry"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+
+
+    <attr name="refresh" format="reference" />
+
+    <declare-styleable name="PullScrollView">
+        <attr name="header" format="reference" />
+        <attr name="headerHeight" format="dimension" />
+        <attr name="headerVisibleHeight" format="dimension" />
+    </declare-styleable>
+
+    <attr name="listview_item_background_selector" format="reference" />
+    <attr name="listview_item_refresh_animation" format="reference" />
+    <attr name="link_color" format="reference" />
+    <attr name="line_drawable" format="reference" />
+    <attr name="listview_checked_color" format="reference" />
+    <attr name="listview_pic_bg_border" format="reference" />
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    
+        <declare-styleable name="HomeButton">
+        <attr name="backcolor" format="integer" />
+        <attr name="textSize" format="dimension" />
+        <attr name="big" format="boolean" />
+        <attr name="home" format="integer" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+
+</resources>

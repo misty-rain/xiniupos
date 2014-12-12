@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">犀牛pos</string>
+    <string name="button_submit_entry">确认</string>
+    <string name="button_submit_calcle">取消</string>
+    
+    <!-- time -->
+    <string name="year">年前</string>
+    <string name="month">月前</string>
+    <string name="day">天前</string>
+    <string name="hour">小时前</string>
+    <string name="min">分钟前</string>
+    <string name="sec">秒前</string>
+    <string name="justnow">刚刚</string>
+    <string name="yesterday">昨天</string>
+    <string name="the_day_before_yesterday">前天</string>
+    <string name="today">今天</string>
+    <string name="date_format">M月d日 HH:m</string>
+    <string name="year_format">yyyy年 M月d日 HH:mm</string>
+
+    <!-- listview -->
+    <string name="empty">空</string>
+    <string name="loading">载入中……</string>
+    <string name="refresh">刷新</string>
+    <string name="refreshing">刷新中……</string>
+    
+
+    <!-- slidingmenu -->
+    <dimen name="slidingmenu_offset">170dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <!-- Login Tips -->
+    <string name="login_user_name_hint">请输入用户名</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="request_failed">登录失败:</string>
+
+    <!-- jpuush -->
+    <string name="jpush_set_tag_not_null">设置的tag不能为空</string>
+    <string name="jpush_set_tag_error">设置的tag不符合规范</string>
+    <string name="company">苏州犀牛网络 </string>
+    <string name="copyright">Copyright(©) 2014-2014</string>
+
+    <!-- contacts -->
+    <string name="pleaseinputsearch">输入拼音首字母查找</string>
+    <string name="contactsrecord">通讯录</string>
+    <string name="exit_sure">确认</string>
+    <string name="exit_cancle">取消</string>
+    <!-- 首页tab 标题 -->
+    <string name="tab_title_index">首页</string>
+    <string name="tab_title_order">收银台</string>
+    <string name="tab_title_transfer">传输列表</string>
+    <string name="tab_title_setting">设置</string>
+
+    <!-- main_menu_title -->
+    <string name="main_menu_search">搜索</string>
+    <string name="main_menu_more">更多</string>
+    <string name="message_no_data">暂无数据</string>
+    
+    <!-- 结算 -->
+    <string name="member_ship_search_hint">请输入会员卡号</string>
+    <string name="settlement_main_count">数量:</string>
+    <string name="settlement_main_totalprice">总计:</string>
+    <string name="settlement_main_vouchers">抵用券:</string>
+    <string name="settlement_main_scroe">积分:</string>
+    <string name="settlement_main_discount">折扣:</string>
+    <string name="settlement_main_need_blance">应付金额:</string>
+    <string name="settlement_main_chooice_pay_type">选择支付方式</string>
+    <string name="settlement_main_bankcard">使用银行卡支付</string>
+    <string name="settlement_main_crash">使用现金支付</string>
+    <string name="settlement_main_rechargecard">使用充值卡支付</string>
+    <string name="settlement_main_otherpaytype">其他支付方式</string>	
+    
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_bar_title_commodity_detail">商品详细</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="action_bar_title_category">分类</string>
+     <string name="action_bar_title_member">会员查询</string>
+     <string name="action_bar_title_orderlist">收银台</string>
+     <string name="action_bar_title_finish">完成 </string>
+     <string name="action_bar_title_settlement_order">结算订单 </string>
+</resources>

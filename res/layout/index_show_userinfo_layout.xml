@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical" >
+	<FrameLayout
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_fragment_top_bg"
+         />
+
+    <TextView
+        android:id="@+id/userView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:text="xiniu" />
+
+    <TextView
+        android:id="@+id/orgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right|bottom"
+        android:text="xiniu"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+	</FrameLayout>
+</LinearLayout>
